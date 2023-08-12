@@ -32,7 +32,7 @@ const Game = () => {
     return (
         <div className="game">
             <Board squares={currentSquares} isNextX={isNextX} onPlay={onPlay} />
-            <div>
+            <div className='game-info'>
                 <ul className='game-moves'>
                     {moves}
                 </ul>

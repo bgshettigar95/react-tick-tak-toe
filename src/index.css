@@ -15,7 +15,6 @@ code {
 .game {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .board {
@@ -41,6 +40,11 @@ code {
 .board-row button:hover {
   background: black;
   color: white;
+}
+
+.game-info {
+  display: flex;
+  align-items: center;
 }
 
 .game-moves {
